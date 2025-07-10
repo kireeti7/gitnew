@@ -1,0 +1,21 @@
+{
+  "name": "mobileshots-blog",
+  "version": "1.0.0",
+  "description": "Mobile reviews blog inspired by Finshots design",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "build": "echo 'Build complete'",
+    "dev": "live-server --port=3000 --watch=."
+  },
+  "keywords": ["mobile", "reviews", "blog", "tech", "smartphones"],
+  "author": "MobileShots Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "swiper": "^11.0.5"
+  }
+}
